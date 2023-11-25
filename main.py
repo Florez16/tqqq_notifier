@@ -1,5 +1,6 @@
 import yfinance as yf
 from datetime import datetime
+import streamlit as st
 
 
 def get_ma_prices(period1, period2):
@@ -73,4 +74,5 @@ def main():
     message = gen_message(ma1, ma2, ma1_price, ma2_price, long_signal, current_datetime)
     print(message)
 
-main()
+#main()
+st.write("TEST")
