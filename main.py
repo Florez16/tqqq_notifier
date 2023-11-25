@@ -74,5 +74,5 @@ def main():
     message = gen_message(ma1, ma2, ma1_price, ma2_price, long_signal, current_datetime)
     print(message)
 
-#main()
 st.write("TEST")
+main()
