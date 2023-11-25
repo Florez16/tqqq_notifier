@@ -1,1 +1,1 @@
-yfinance 0.2.32
+yfinance 0.1.63
