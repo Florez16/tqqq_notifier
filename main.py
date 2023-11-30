@@ -6,7 +6,7 @@ import pytz
 
 def get_ma_prices(period1, period2):
     # Define the ticker symbol for TQQQ
-    ticker_symbol = "TQQQ"
+    ticker_symbol = "QQQ"
 
     # Retrieve historical stock data using yfinance
     data = yf.download(ticker_symbol)
